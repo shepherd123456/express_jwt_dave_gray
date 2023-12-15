@@ -1,0 +1,60 @@
+[2023-12-11T09:25:47;bb11d5d9-a2c4-4d31-a772-97051f3e546d]: Error: Not allowed by CORS
+[2023-12-11T09:55:14;3a34686e-43a0-4352-a90c-468e4c993263]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/routes/views/index.html'
+[2023-12-11T10:16:43;31621c80-79e5-473e-acd3-413c22da939b]: TypeError: req.json is not a function
+[2023-12-11T10:53:27;944f5463-a4a6-4d91-a630-06853e4e14e4]: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+[2023-12-11T10:54:25;aaee9c72-42ee-49b1-bf3d-5f02c067052d]: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+[2023-12-11T10:55:20;52989ca3-8a10-44de-9de1-bc9bfdefbc51]: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+[2023-12-11T10:55:49;87aa15c6-38fb-42f3-a7c6-892316b1d17d]: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+[2023-12-11T12:16:40;f876d08c-4836-42d5-b3ba-49f2fd6079da]: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+[2023-12-11T12:16:48;4eae561a-a036-4215-b54f-73368862c228]: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+[2023-12-11T12:16:51;ce0210dd-cfa9-4972-b3fd-ddf0a581aa72]: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+[2023-12-11T12:17:24;563c7379-2e03-4106-b195-af3b6b9a5325]: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+[2023-12-11T12:18:21;25f97fb0-9dd7-4abf-a4b3-b2c4d376ef9d]: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+[2023-12-11T12:21:03;63cdf136-bf98-455a-8199-2501bdadab14]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/views/404.html'
+[2023-12-11T12:21:20;0a30368a-d5b7-4272-831d-a5bc8f386311]: TypeError: Cannot read properties of undefined (reading 'firstname')
+[2023-12-11T12:21:58;e896180f-3432-409b-b080-7d43e1307b13]: TypeError: Cannot read properties of undefined (reading 'firstname')
+[2023-12-12T20:23:03;313c5e0e-526f-49f4-a953-cfaef4c96736]: ReferenceError: authHeader is not defined
+[2023-12-13T15:02:15;78ad5d10-ce21-4f0d-9b94-09189e3d2b1a]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/views/404.html'
+[2023-12-14T23:36:39;72979445-2ec3-417f-9496-3cef4ddc0f21]: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+[2023-12-14T23:37:53;1bdb60ad-fc86-4c32-a664-52bbc1d0a073]: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+[2023-12-14T23:51:52;f1c24e31-d896-4c9a-ad87-aa58e7d9cc21]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/views/404.html'
+[2023-12-15T00:48:23;f884b417-4386-495e-9f05-b5a4041bc571]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/views/404.html'
+[2023-12-15T11:45:21;5f17c507-0c8c-4103-b114-0bf922f4635e]: TypeError: req.roles.filter is not a function
+[2023-12-15T13:02:08;12f73a57-88da-4148-9c54-db8a92bcbc57]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/views/404.html'
+[2023-12-15T13:10:36;7fe65615-0b23-4b78-aa80-5ff8dfb4c383]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/views/404.html'
+[2023-12-15T13:10:43;53b691e0-0bb3-46ca-9c0d-ad2d32525fc8]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/views/404.html'
