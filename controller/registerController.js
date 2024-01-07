@@ -4,7 +4,7 @@ const User = require('../model/User');
 
 async function registerUser(req, res) {
   const { username, password } = req.body;
-  if (!username || !password) return res.status(400).json({ message: 'username and password are required' });
+  if (!username || !password) return res.sendStatus(400);
   const duplicate = await User.findOne({ username }).exec();
   if (duplicate) return res.sendStatus(409);
   try {
@@ -13,7 +13,7 @@ async function registerUser(req, res) {
       username,
       password: hashedPassword,
     });
-    res.status(201).json({ success: `new user ${username} created!` });
+    res.sendStatus(201);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }

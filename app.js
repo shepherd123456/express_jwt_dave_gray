@@ -30,13 +30,13 @@ app.use('/login', require('./route/login'));
 app.use('/refresh', require('./route/refresh'));
 app.use('/logout', require('./route/logout.js'));
 app.use(verifyJwt);
-app.use('/user', require('./route/api/users'));
-app.use('/employee', require('./route/api/employees'));
+app.use('/users', require('./route/api/users'));
+app.use('/employees', require('./route/api/employees'));
 
 app.all('*', (req, res) => {
   res.status(404);
   if (req.accepts('html')) {
-    res.sendFile(path.join(__dirname, 'views', '404.html'));
+    res.sendFile(path.join(__dirname, '..', 'view', '404.html'));
   } else if (req.accepts('json')) {
     res.json({ error: '404 not found' });
   } else {

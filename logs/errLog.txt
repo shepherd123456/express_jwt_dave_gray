@@ -58,3 +58,7 @@
 [2023-12-15T13:02:08;12f73a57-88da-4148-9c54-db8a92bcbc57]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/views/404.html'
 [2023-12-15T13:10:36;7fe65615-0b23-4b78-aa80-5ff8dfb4c383]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/views/404.html'
 [2023-12-15T13:10:43;53b691e0-0bb3-46ca-9c0d-ad2d32525fc8]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/views/404.html'
+[2023-12-15T20:42:08;981391eb-3665-407d-b96e-c67f127b9ba4]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/route/views/404.html'
+[2023-12-15T20:42:10;21357244-bdfe-43a5-9583-13af3d257fba]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/route/views/404.html'
+[2023-12-15T20:42:31;4a18b1d4-0b8d-46bd-8448-7e1e82dad57a]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/express_server/views/404.html'
+[2024-01-01T13:40:36;963c2623-ce2e-4067-a032-02d878ca2caf]: Error: ENOENT: no such file or directory, stat '/home/shepherd/Desktop/js/view/404.html'
